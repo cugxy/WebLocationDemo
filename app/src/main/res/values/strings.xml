@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WebLocationDemo</string>
+    <string name="location_permission_confirmation">请求位置权限</string>
+    <string name="location_permission_not_granted">无法获取位置</string>
+</resources>
