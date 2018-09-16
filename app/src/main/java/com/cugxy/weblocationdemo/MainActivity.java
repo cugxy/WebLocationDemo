@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     private String URL = "https://hqcode.gitee.io/cesium-test/lesson21/";
 
+    private String Localhost_URL = "file:///android_asset/dist/index.html";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //mWebVeiw.loadUrl("file:///android_asset/web/location.html");
-        mWebVeiw.loadUrl(URL);
+        mWebVeiw.loadUrl(Localhost_URL);
     }
 
     @Override
