@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //mWebVeiw.loadUrl("file:///android_asset/web/location.html");
-        mWebVeiw.loadUrl(Localhost_URL);
+        mWebVeiw.loadUrl(URL);
     }
 
     @Override
